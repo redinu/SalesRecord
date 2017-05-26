@@ -1,0 +1,10 @@
+
+Input 						Processing 						  	Output
+
+customerId					set name to user input				customerId	
+name						set customerId to user input		name
+salesAmount					set taxCode user input				salesAmount
+taxCode						set salesAmount user input			taxCode
+																totalAmount
+
+

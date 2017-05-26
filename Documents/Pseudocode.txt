@@ -1,0 +1,48 @@
+
+
+
+Declare name
+Declare customerId 
+Declare taxCode 
+Declare salesAmount
+Initialize salesTax to zero
+Initialize totalAmount to zero
+
+Prompt the user to enter customer ID, name, taxCode, salesAmount
+
+DOWHILE more records exist
+
+
+	set name to user input
+	set customerId to user input
+	set taxCode user input
+	set salesAmount user input
+	
+	
+    IF taxCode = NPF THEN 
+
+         set salesTax = 0
+
+         set totalAmount = salesAmount
+
+    ELSEIF taxCode = NRM  THEN
+
+        set salesTax = salesAmount * 0.06
+
+        set totalAmount = salesAmount + salesTax
+
+   ELSE
+
+        set salesTax = salesAmount * 0.045
+
+        set totalAmount = sales amount + salesTax
+
+   ENDIF
+
+   print customerId, name, salesAmount,taxCode and totalAmount
+   
+   print "Do you want to enter another record? (Y/N)"
+
+ENDDO
+
+END
